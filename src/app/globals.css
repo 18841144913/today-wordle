@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --color-correct: #6aaa64;
+  --color-correct-dark: #5a9954;
+  /* WCAG AA-compliant green for text/buttons on white (4.5:1+).
+     The brand green (#6aaa64) is reserved for tiles and decorative accents. */
+  --color-correct-text: #2e7d32;
+  --color-cta: #2e7d32;
+  --color-cta-dark: #256528;
+  --color-present: #c9b458;
+  --color-present-dark: #b59f3b;
+  --color-absent: #787c7e;
+  --color-ink: #121213;
+  --color-paper: #ffffff;
+  --color-muted: #f4f4f5;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --animate-pop: pop 0.18s ease-out;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.86);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(60rem 60rem at 50% -20rem, rgba(106, 170, 100, 0.08), transparent),
+    var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Spoiler-safe disclosures use native <details>. Hide the default marker so we
+   can style our own affordance while keeping the text crawlable in the DOM. */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Per-letter tile reveal: swap the masked tile for the answer tile in place.
+   Both tiles stay in the DOM (just display:none) so crawlers read the answer. */
+.tile-reveal[open] > summary {
+  display: none;
+}
+.tile-reveal > .tile-shown {
+  display: none;
+}
+.tile-reveal[open] > .tile-shown {
+  display: inline-flex;
+  animation: var(--animate-pop);
+}
+.tile-reveal > summary > * {
+  transition: transform 0.12s ease;
+}
+.tile-reveal > summary:hover > * {
+  transform: translateY(-2px);
+}
+
+/* Rotate the chevron affordance when a disclosure opens. */
+details[open] .chevron {
+  transform: rotate(180deg);
+}
+.chevron {
+  transition: transform 0.18s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
