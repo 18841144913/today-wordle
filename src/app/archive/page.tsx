@@ -5,21 +5,24 @@ import { JsonLd } from "@/components/JsonLd";
 import { SITE_NAME, SITE_URL } from "@/lib/config";
 import { getArchiveIndex, getTodayDate } from "@/lib/services/wordle";
 import { getYear } from "@/lib/utils/date";
+import { absoluteUrl, buildWebsiteMetadata } from "@/lib/utils/seo";
 
 export const revalidate = 86400;
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildWebsiteMetadata({
   title: "Wordle Answers Archive — Every Past Answer",
   description:
     "Browse the complete archive of past Wordle answers by date and puzzle number, all the way back to the first puzzle (CIGAR) in June 2021.",
-  alternates: { canonical: "/archive" },
-  openGraph: {
-    title: "Wordle Answers Archive — Every Past Answer",
-    description:
-      "Every past Wordle answer by date and puzzle number, back to the first puzzle in June 2021.",
-    url: "/archive",
-  },
-};
+  path: "/archive",
+  imageAlt: "Complete Wordle answers archive by date and puzzle number",
+  keywords: [
+    "Wordle answers archive",
+    "past Wordle answers",
+    "Wordle answer list",
+    "Wordle puzzle numbers",
+    "Wordle history",
+  ],
+});
 
 export default function ArchivePage() {
   const today = getTodayDate();
@@ -42,6 +45,27 @@ export default function ArchivePage() {
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
       { "@type": "ListItem", position: 2, name: "Archive", item: `${SITE_URL}/archive` },
     ],
+  };
+
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Wordle Answers Archive",
+    description:
+      "Complete archive of past Wordle answer pages, grouped by year and puzzle number.",
+    url: `${SITE_URL}/archive`,
+    inLanguage: "en-US",
+    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: SITE_URL },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: entries.length,
+      itemListElement: entries.slice(0, 50).map((entry, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: `Wordle #${entry.number} — ${entry.longDate}`,
+        url: absoluteUrl(`/wordle/${entry.date}`),
+      })),
+    },
   };
 
   return (
@@ -85,6 +109,7 @@ export default function ArchivePage() {
       ))}
 
       <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={collectionSchema} />
     </div>
   );
 }

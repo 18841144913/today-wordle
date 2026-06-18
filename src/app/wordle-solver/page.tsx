@@ -1,22 +1,54 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { HelpCircle, Wand2 } from "lucide-react";
+import { JsonLd } from "@/components/JsonLd";
+import { SITE_NAME, SITE_URL } from "@/lib/config";
+import { buildWebsiteMetadata } from "@/lib/utils/seo";
 import { SolverClient } from "./solver-client";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildWebsiteMetadata({
   title: "Wordle Solver & Word Finder",
   description:
     "Free Wordle solver and word finder. Enter the green, yellow and gray letters from your board to instantly find every possible five-letter answer.",
-  alternates: { canonical: "/wordle-solver" },
-  openGraph: {
-    title: "Wordle Solver & Word Finder",
-    description:
-      "Enter your green, yellow and gray letters to find every possible Wordle answer.",
-    url: "/wordle-solver",
-  },
-};
+  path: "/wordle-solver",
+  imageAlt: "Free Wordle solver and five-letter word finder",
+  keywords: [
+    "Wordle solver",
+    "Wordle word finder",
+    "five letter word finder",
+    "Wordle helper",
+    "Wordle clues",
+  ],
+});
 
 export default function WordleSolverPage() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Wordle Solver",
+        item: `${SITE_URL}/wordle-solver`,
+      },
+    ],
+  };
+
+  const appSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: "Wordle Solver",
+    url: `${SITE_URL}/wordle-solver`,
+    description:
+      "Free Wordle solver that filters possible five-letter words from green, yellow and gray clue letters.",
+    applicationCategory: "GameApplication",
+    operatingSystem: "Any",
+    isAccessibleForFree: true,
+    publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
+  };
+
   return (
     <div className="space-y-8">
       <header className="space-y-2">
@@ -56,6 +88,9 @@ export default function WordleSolverPage() {
           .
         </p>
       </section>
+
+      <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={appSchema} />
     </div>
   );
 }

@@ -9,6 +9,7 @@ import {
   getTodayDate,
 } from "@/lib/services/wordle";
 import { isValidDateString } from "@/lib/utils/date";
+import { buildArticleMetadata } from "@/lib/utils/seo";
 
 // Past answers never change once published -> cache the generated page forever.
 export const revalidate = false;
@@ -33,14 +34,24 @@ export async function generateMetadata({
   const title = `Wordle Answer for ${answer.longDate} (#${answer.number})`;
   const description = `Hints and the answer for Wordle #${answer.number} on ${answer.longDate}. Spoiler-free clues first, then reveal the solution.`;
   const path = `/wordle/${answer.date}`;
+  const publishedTime = `${answer.date}T00:05:00-04:00`;
 
-  return {
+  return buildArticleMetadata({
     title,
     description,
-    alternates: { canonical: path },
-    openGraph: { title, description, url: path, type: "article" },
-    twitter: { title, description },
-  };
+    path,
+    imagePath: `${path}/opengraph-image`,
+    imageAlt: `Wordle answer and hints for ${answer.longDate}`,
+    publishedTime,
+    modifiedTime: publishedTime,
+    keywords: [
+      `Wordle answer ${answer.longDate}`,
+      `Wordle ${answer.number}`,
+      `Wordle ${answer.date}`,
+      "past Wordle answers",
+      "Wordle hints",
+    ],
+  });
 }
 
 export default async function DatedPuzzlePage({

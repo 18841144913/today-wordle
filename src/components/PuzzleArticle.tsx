@@ -97,7 +97,16 @@ export function PuzzleArticle({
     datePublished: `${puzzle.date}T00:05:00-04:00`,
     dateModified: `${puzzle.date}T00:05:00-04:00`,
     author: { "@type": "Organization", name: AUTHOR_NAME },
-    publisher: { "@type": "Organization", name: SITE_NAME },
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/opengraph-image`,
+      },
+    },
+    image: `${pageUrl}/opengraph-image`,
+    url: pageUrl,
     mainEntityOfPage: pageUrl,
     inLanguage: "en-US",
   };
