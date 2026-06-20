@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CalendarDays, LibraryBig, Wand2, Boxes } from "lucide-react";
+import { CalendarDays, LibraryBig, Wand2, Boxes, Grid3x3 } from "lucide-react";
 import { SITE_NAME } from "@/lib/config";
 
 function Header() {
@@ -49,6 +49,13 @@ function Header() {
             <Boxes className="h-4 w-4" aria-hidden />
             <span>Minecraft</span>
           </Link>
+          <Link
+            href="/nyt-crossplay-cheat"
+            className="flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 hover:bg-muted hover:text-ink"
+          >
+            <Grid3x3 className="h-4 w-4" aria-hidden />
+            <span>Crossplay</span>
+          </Link>
         </nav>
       </div>
     </header>
@@ -89,6 +96,13 @@ function Footer() {
           >
             <Boxes className="h-4 w-4" aria-hidden />
             Minecraft Wordle
+          </Link>
+          <Link
+            href="/nyt-crossplay-cheat"
+            className="flex items-center gap-1.5 hover:text-ink"
+          >
+            <Grid3x3 className="h-4 w-4" aria-hidden />
+            Crossplay Solver
           </Link>
         </div>
         <p className="mt-4 text-zinc-400">

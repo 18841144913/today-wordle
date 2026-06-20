@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/archive`, lastModified, changeFrequency: "daily", priority: 0.7 },
     { url: `${SITE_URL}/wordle-solver`, lastModified, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/minecraftwordle`, lastModified, changeFrequency: "daily", priority: 0.8 },
+    { url: `${SITE_URL}/nyt-crossplay-cheat`, lastModified, changeFrequency: "monthly", priority: 0.6 },
   ];
 
   const answerRoutes: MetadataRoute.Sitemap = getArchiveIndex(today).map((entry) => ({

@@ -12,6 +12,7 @@ export function GET() {
 - [Wordle Answer Archive](${SITE_URL}/archive): Every past Wordle answer organised by year and puzzle number, going back to the first puzzle (CIGAR) on June 19, 2021.
 - [Wordle Solver](${SITE_URL}/wordle-solver): Free tool that lists every valid five-letter word matching your green, yellow and gray letter clues.
 - [Minecraft Wordle](${SITE_URL}/minecraftwordle): A free daily Minecraft-themed Wordle. Guess the hidden five-letter Minecraft word (blocks, mobs, biomes, tools) in six tries using color clues, with stats and streaks saved in your browser.
+- [NYT Crossplay Cheat & Solver](${SITE_URL}/nyt-crossplay-cheat): Free word finder for the NYT Crossplay two-player game. Enter your rack tiles and board letters to list every playable word ranked by Crossplay points, with the full letter-value chart.
 
 ## Answer Pages
 - Each day has a permanent page at ${SITE_URL}/wordle/YYYY-MM-DD (for example ${SITE_URL}/wordle/2026-06-17) containing that day's answer, hints, puzzle number and word breakdown.
