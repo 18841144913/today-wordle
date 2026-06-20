@@ -1,0 +1,637 @@
+[
+  {
+    "word": "agent",
+    "about": "An agent is a mob that helps players learn coding, by getting a player to code the actions on one.  Agents can be programmed to execute several tasks, like planting and harvesting, mining, chopping trees, and building.",
+    "wiki": "https://minecraft.wiki/w/Agent"
+  },
+  {
+    "word": "allay",
+    "about": "The Allay is a mob in Minecraft that flies around and picks up items and gives them to a player or noteblock. You can find them in Pillager outposts and woodland mansions.",
+    "wiki": "https://minecraft.wiki/w/Allay"
+  },
+  {
+    "word": "anvil",
+    "about": "Anvils are a block in Minecraft that can be used to repair items and merge enchantment books with items. They are affected by gravity and deal damage when they fall on a mob. You can craft one with three iron blocks and four iron ingots.",
+    "wiki": "https://minecraft.wiki/w/Anvil"
+  },
+  {
+    "word": "apple",
+    "about": "Apples are food in minecraft that give you 4 hunger points back. They can drop for oak tree leaves or be found in structures as loot. Using 8 gold ingots you can turn it into a golden apple. There is also a enchanted golden apple varent that is only obtanable via structures.",
+    "wiki": "https://minecraft.wiki/w/Apple"
+  },
+  {
+    "word": "armor",
+    "about": "Armor in Minecraft comes in 6 types: Leather, Iron, Chainmail, Gold, Diamond, and Netherite. Armor comes in four pieces, a helmet, a chestplate, leggings, and boots. Each type an peice provide diffrent protection points.",
+    "wiki": "https://minecraft.wiki/w/Armor"
+  },
+  {
+    "word": "arrow",
+    "about": "Arrows can be crafted with a piece flint, a stick, and a peice of iron making 4 arrows. Arrows can also be gotten from trading with fletching villagers or from skeletons. Arrows can be shot out of a bow or crossbow. Potion effects can be added to arrows with dragons breath and with glowstone can be turned in a spectral arrow which gives glowing to the target.",
+    "wiki": "https://minecraft.wiki/w/Arrow"
+  },
+  {
+    "word": "beach",
+    "about": "Beaches are common coastal biomes that serve as transition biomes from the mainland to an ocean.  Beaches are covered entirely with sand and are the main source of turtles and buried treasures.",
+    "wiki": "https://minecraft.wiki/w/Beach"
+  },
+  {
+    "word": "berry",
+    "about": "Sweet berries spawn in Taigas and deal damage to players when they step in it. When harvested you get sweet berries that you can eat to restore 2 hunger.",
+    "wiki": "https://minecraft.wiki/w/Sweet_Berries"
+  },
+  {
+    "word": "biome",
+    "about": "The Minecraft World is made up of diffrent biomes. As of 1.19 there are 63 biomes. 5 for the Nether and end and 52 in the overworld (in 1.20 the Tails and Trails update the overworld will have 53 biomes), however many of these overworld biomes are variants of main biomes.",
+    "wiki": "https://minecraft.wiki/w/Biome"
+  },
+  {
+    "word": "birch",
+    "about": "Birch is a family of wood in Minecraft and one of the original types. Birch wood has a variant of each wood item in the game.",
+    "wiki": "https://minecraft.wiki/w/Birch"
+  },
+  {
+    "word": "blast",
+    "about": "Blast Furnaces are a block in Minecraft that function similar to a furnace, but can only smelt ores but smelts them faster. It is made with a furnace, iron, and smooth stone. It is also used as a job block for armor villagers.",
+    "wiki": "https://minecraft.wiki/w/Blast_Furnace"
+  },
+  {
+    "word": "blaze",
+    "about": "Blazes are a mob made of flame in Minecraft. They spawn in Nether fortresses and spit fireballs at you. They drop blaze rods which are needed to reach the end.",
+    "wiki": "https://minecraft.wiki/w/Blaze"
+  },
+  {
+    "word": "block",
+    "about": "The world of Minecraft is made out of blocks. All blocks can be mined*, and placed.",
+    "wiki": "https://minecraft.wiki/w/Block"
+  },
+  {
+    "word": "boats",
+    "about": "A boat is an item that can be used to travel across water (and ice). Each wood type (excluding the nether wood types) has a variant (oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, and bamboo).",
+    "wiki": "https://minecraft.wiki/w/Boat"
+  },
+  {
+    "word": "bones",
+    "about": "Bones are items dropped from skeletons. They can be used to tame dogs, crafted into bone blocks (which can also be found on fossils) or bone meal. Bone meals accelerate plant growth.",
+    "wiki": "https://minecraft.wiki/w/Bone"
+  },
+  {
+    "word": "books",
+    "about": "Books are items that play an important role for enchanting, used to craft the enchanting table itself as well as bookshelves required to power it up. Alternatively, books themselves can be enchanted in order to store and apply enchantments. A book can also be crafted into a book and quill, which allows players to write and keep text.",
+    "wiki": "https://minecraft.wiki/w/Book"
+  },
+  {
+    "word": "boots",
+    "about": "Boots are one of four parts in an armor set. They are crafted with four of their respected material.",
+    "wiki": "https://minecraft.wiki/w/Boots"
+  },
+  {
+    "word": "bread",
+    "about": "Bread is one of the best foods in Minecraft, restoring five hunger. It can be crafted with three pieces of wheat.",
+    "wiki": "https://minecraft.wiki/w/Bread"
+  },
+  {
+    "word": "brick",
+    "about": "Bricks are an item in Minecraft that can be gotten by smelting clay. It is a craftable item being able to craft flower pots, blank decorated pots, and brick blocks.",
+    "wiki": "https://minecraft.wiki/w/Brick"
+  },
+  {
+    "word": "brush",
+    "about": "The brush is an item used for archeology. Made with copper, a feather, and a stick it is used to brush layers off suspicious sand/gravel.",
+    "wiki": "https://minecraft.wiki/w/Brush"
+  },
+  {
+    "word": "build",
+    "about": "Building is a fundamental part of Minecraft. You can build by placing down a block to put together. You can build anything you want with the wide variety of blocks in the game. There are also naturally spawning buildings such as villages or ruined portals.",
+    "wiki": "https://minecraft.wiki/w/Structure"
+  },
+  {
+    "word": "bunny",
+    "about": "Bunnies are baby rabbits. Rabbits are passive mobs that spawn in a wide range of biomes and have six variants. They drop rabbits hide (can be used to make leather), rabbits foot (used in jump boost potion), and raw rabbit (food). There is a secret killer bunny version that can only be gotten from commands and is hostile to the player dealing eight damage ( and a reference to the movie Monty Python The Holy Grail, there is also a toast variant that can be gotten through a name tag and is a memorial to TheMogMiners girlfriend whos rabbit went missing.",
+    "wiki": "https://minecraft.wiki/w/Rabbit"
+  },
+  {
+    "word": "camel",
+    "about": "The camel is a mob that was added in the 1.20 tails and trails update. You can ride it like a horse but two people can ride it and mobs can't reach you while you're on it.",
+    "wiki": "https://minecraft.wiki/w/Camel"
+  },
+  {
+    "word": "chain",
+    "about": "In Minecraft there is a chain block, which is crafted with iron and iron nuggets and used for decoration. Chainmail is the other kind of chain in Minecraft. Chainmail is an armor set that is uncraftable and only obtainable in survival through villagers.",
+    "wiki": "https://minecraft.wiki/w/Chain"
+  },
+  {
+    "word": "chest",
+    "about": "A chest is a block used to store items.",
+    "wiki": "https://minecraft.wiki/w/Chest"
+  },
+  {
+    "word": "chunk",
+    "about": "A chunk is the term for a section of a Minecraft world. Each world is divided into 16x16 block \"chunks\" from world height to bedrock. Because all structures are loaded in chunks as well as world generation, you can find buried treasure using chunks and some chunks are \"slime chunks\" which slimes can spawn in.",
+    "wiki": "https://minecraft.wiki/w/Chunk"
+  },
+  {
+    "word": "cliff",
+    "about": "The Caves and Cliffs updates (1.17 and 1.18) were massive updates that revamped world generation, improved caves, and added new features. Due to the COVID-19 pandemic the update was split into two parts, 1.17 and 1.18.",
+    "wiki": "https://minecraft.wiki/w/Caves_%26_Cliffs"
+  },
+  {
+    "word": "clock",
+    "about": "Clocks are an item in Minecraft that shows you what time it is in game (based on the position of the sun). It is crafted with redstone dust and gold ingots. There is also a term in redstone called a redstone clock, which is making a redstone signal that loops.",
+    "wiki": "https://minecraft.wiki/w/Clock"
+  },
+  {
+    "word": "cloud",
+    "about": "Clouds are graphical effects in the Overworld sky.  While serving a solely aesthetic purpose, they can be used to determine directions because they always move westward.",
+    "wiki": "https://minecraft.wiki/w/Cloud"
+  },
+  {
+    "word": "color",
+    "about": "Colors are applied to several blocks, items and particles in order to display a much wider array of possibilities than would be possible with a raw unmodified texture without the need for potentially millions of distinct files.",
+    "wiki": "https://minecraft.wiki/w/Color"
+  },
+  {
+    "word": "coral",
+    "about": "Coral is a block in Minecraft that spawns in water. There are five variants: tube, brain, bubble, fire, and horn. Each of these variants has a dead sub-variant for when it is kept out of water for too long. Coral is purely decorative.",
+    "wiki": "https://minecraft.wiki/w/Coral"
+  },
+  {
+    "word": "craft",
+    "about": "Crafting is a fundamental part of Minecraft (its even in the name)! Typically you craft using a crafting table. You use items such as iron and gold while crafting but most items in the game can be used to craft!",
+    "wiki": "https://minecraft.wiki/w/Crafting"
+  },
+  {
+    "word": "curse",
+    "about": "There are two curse enchantments in Minecraft, curse of binding, and curse of vanishing. Curse of binding makes that item unable to be taken off until death once equipped. Curse of vanishing makes it so that upon death all item equipped with the curse disappear upon death.",
+    "wiki": "https://minecraft.wiki/w/Curse"
+  },
+  {
+    "word": "delta",
+    "about": "A delta is a one-block-deep sheet of constrained lava found among the terrain of basalt deltas biome in the Nether.",
+    "wiki": "https://minecraft.wiki/w/Delta"
+  },
+  {
+    "word": "drops",
+    "about": "Drops are items that appear when mobs and some other entities die or when most kinds of blocks are broken.",
+    "wiki": "https://minecraft.wiki/w/Drops"
+  },
+  {
+    "word": "elder",
+    "about": "Elder Guardians are a rare miniboss mob in Minecraft. Elder Guardians spawn in Ocean Monuments like regular Guardians but there's only three and they don't respawn. When killed they drop a wet sponge and a tide armor trim.",
+    "wiki": "https://minecraft.wiki/w/Elder_Guardian"
+  },
+  {
+    "word": "ender",
+    "about": "\"Ender\" is a term in Minecraft used to associate something with the end. For instance, the Ender Dragon is a dragon in the end. There are currently three mobs with ender in the name, two blocks, and three items dubbed \"Ender\".",
+    "wiki": "https://minecraft.wiki/w/Ender"
+  },
+  {
+    "word": "fence",
+    "about": "Fences are blocks that can't be jumped over with a standard player jump but some horses can jump over them. They can be crafted with two sticks and two planks of any wood type (or nether bricks).",
+    "wiki": "https://minecraft.wiki/w/Fence"
+  },
+  {
+    "word": "flame",
+    "about": "Flame is an enchantment applied to bows that causes arrows to be set on fire.",
+    "wiki": "https://minecraft.wiki/w/Flame"
+  },
+  {
+    "word": "flint",
+    "about": "Flint can occasionally be dropped instead of gravel when mining gravel. It is used to craft arrows and flint and steel.",
+    "wiki": "https://minecraft.wiki/w/Flint"
+  },
+  {
+    "word": "fluid",
+    "about": "Fluids (also known by players as liquids) are blocks that are able to flow over the terrain, forming rivers or falls.  There are only two fluid blocks: water and lava.",
+    "wiki": "https://minecraft.wiki/w/Fluid"
+  },
+  {
+    "word": "frame",
+    "about": "Item frames are an item in Minecraft crafted with leather and sticks that is used to display items.",
+    "wiki": "https://minecraft.wiki/w/Item_Frame"
+  },
+  {
+    "word": "fruit",
+    "about": "Chorus fruit is a food found in the end, which teleports you when eaten.",
+    "wiki": "https://minecraft.wiki/w/Chorus_Fruit"
+  },
+  {
+    "word": "fungi",
+    "about": "Fungi can be found in the nether, in warped and crimson forest biomes. They grow on the ground and warped fungus can be combined with a fishing rod to lure striders. Warped fungi also scares hoglins away and crimson fungi can be found in Bastion chests.",
+    "wiki": "https://minecraft.wiki/w/Fungus"
+  },
+  {
+    "word": "geode",
+    "about": "In Minecraft, Amethyst Geodes spawn underground (below y 30) and are the only place in the game to find amethyst naturally. They have a outer shell of smooth basalt, an inner shell of calcite, and an inner layer of amethyst and amethyst clusters.",
+    "wiki": "https://minecraft.wiki/w/Amethyst_geode"
+  },
+  {
+    "word": "ghast",
+    "about": "The ghast is a flying Nether mob in Minecraft with ten health. They will shoot fireballs at the player which explode and start fire. When killed ghasts drop ghast tears and gunpowder.",
+    "wiki": "https://minecraft.wiki/w/Ghast"
+  },
+  {
+    "word": "giant",
+    "about": "A giant is an unused over-sized monster mob in Java and Legacy Console editions that resembles a zombie.",
+    "wiki": "https://minecraft.wiki/w/Giant"
+  },
+  {
+    "word": "glare",
+    "about": "The glare was an option for the 2021 mob vote, losing as the least voted more of the three. It would have made noise in areas where mobs could have spawned.",
+    "wiki": "https://minecraft.wiki/w/Glare"
+  },
+  {
+    "word": "glass",
+    "about": "Glass is a transparent block in Minecraft made by smelting sand. It can be used to make a thinner version of glass called glass pains. You can make stained glass with eight glass blocks and a dye of the color you want to stain the glass. Amethyst shards can make tinted glass which you can see through but light doesn't go through, making it useful for view ports on mob farms. Glass is also used in many crafting recipes such as bottles and beacons.",
+    "wiki": "https://minecraft.wiki/w/Glass"
+  },
+  {
+    "word": "goats",
+    "about": "Goats are a mob in Minecraft that can spawn in mountainous biomes. They will ram nearby mobs, and can be tricked into ramming stone blocks to drop a goat horn. There is a variant the screams.",
+    "wiki": "https://minecraft.wiki/w/Goat"
+  },
+  {
+    "word": "golem",
+    "about": "There are two golems in Minecraft. The iron golem spawns naturally in villages or can be made by the player with a carved pumpkin and four iron blocks. They have 100 health and attack hostile mobs. Snow golems can only be made by a player by placing two snow blocks and a carved pumpkin on top of another. They have four health, melt in hot biomes, and shoot snowballs at mobs (they do zero damage but knock mobs back) and can be sheared. For the Minecraft live mob votes of 2021 and 2022 the copper and tuff golems have been votable options but have never won a vote.",
+    "wiki": "https://minecraft.wiki/w/Golem"
+  },
+  {
+    "word": "grass",
+    "about": "The grass block is a common block in Minecraft which will turn into dirt when broken (unless a silk touch enchantment is used).",
+    "wiki": "https://minecraft.wiki/w/Grass_Block"
+  },
+  {
+    "word": "grave",
+    "about": "A grave is an item introduced in 25w14craftmine.  A poppy and skeleton skull is seen in the item’s texture.",
+    "wiki": "https://minecraft.wiki/w/Grave"
+  },
+  {
+    "word": "grove",
+    "about": "A grove is a snowy forest biome that often generates on the sides of mountains.  Similar to the snowy taiga, it is filled with spruce trees but the ground is covered with snow blocks and occasional powder snow patches.",
+    "wiki": "https://minecraft.wiki/w/Grove"
+  },
+  {
+    "word": "haste",
+    "about": "Haste is an effect in Minecraft that can only be obtained by a beacon. It increases Mining and attack speed.",
+    "wiki": "https://minecraft.wiki/w/Haste"
+  },
+  {
+    "word": "heart",
+    "about": "Hearts are a measurement of health in Minecraft. Each heart is worth two health points. The player has ten hearts (twenty health points). When you reach zero hearts you die.",
+    "wiki": "https://minecraft.wiki/w/Health"
+  },
+  {
+    "word": "honey",
+    "about": "Honey comes in two main forms: Honey bottles & blocks,  and honeycomb & honeycomb blocks. Honey bottles can be drinked to clear poison and restore six hunger, and honey blocks can be slid down or used in redstone contraptions in conjunction with slime blocks. Honeycomb is used to craft beehives, and candles.",
+    "wiki": "https://minecraft.wiki/w/Honey"
+  },
+  {
+    "word": "horse",
+    "about": "Horses are mobs that can be found and tamed. Once tamed you can put a saddle on them to control and ride them around. Horses have different stats and can be breeded to get a horse with the best stats.",
+    "wiki": "https://minecraft.wiki/w/Horse"
+  },
+  {
+    "word": "husks",
+    "about": "Husks are a variant of zombies that only spawn in the desert. The only difference from regular zombies aside from the texture, is that when attacked, the hunger effect will be given.",
+    "wiki": "https://minecraft.wiki/w/Husk"
+  },
+  {
+    "word": "igloo",
+    "about": "Igloos are a structure in Minecraft that can be found in snowy tigas and plains. There is a bed, crafting table, furnace, bed, and redstone torch on the top level. Sometimes there is a trap door beneath the carpet on the floor that leads to a brewing stand, chest, villager, and zombie villager.",
+    "wiki": "https://minecraft.wiki/w/Igloo"
+  },
+  {
+    "word": "ingot",
+    "about": "An ingot is a form of a metal that is used in crafting. There are four types of ingots: Copper, Iron, Gold, and Netherite. Nine ingots can craft a block of that type.",
+    "wiki": "https://minecraft.wiki/w/Metal"
+  },
+  {
+    "word": "lapis",
+    "about": "Lapis is a blue ore that can be found underground. When you mine it it drops Lapis Luzuli which is required to enchant items in an enchanting table.",
+    "wiki": "https://minecraft.wiki/w/Lapis_Lazuli"
+  },
+  {
+    "word": "lever",
+    "about": "Levers are a redstone component in Minecraft that is crafted with one cobblestone and a stick. When flipped on it emits a redstone signal until flipped into the off position.",
+    "wiki": "https://minecraft.wiki/w//Lever"
+  },
+  {
+    "word": "light",
+    "about": "Light (or lighting) in Minecraft is a game mechanic that affects visibility, mob spawning, and the growth of some plants.  There are three aspects of Minecraft's lighting system: light level, internal light level, and rendered brightness.",
+    "wiki": "https://minecraft.wiki/w/Light"
+  },
+  {
+    "word": "lilac",
+    "about": "A lilac is a tall flower that can be crafted into magenta dye.",
+    "wiki": "https://minecraft.wiki/w/Lilac"
+  },
+  {
+    "word": "llama",
+    "about": "Llamas are neutral mobs that spit at you when punched. You can ride them but they are not control-able. You can put a chest on them to carry items, and carpets to change their appearance. They have a caravan behavior that makes a group of llamas follow one llama and two spawn with a wandering trader.",
+    "wiki": "https://minecraft.wiki/w/Llama"
+  },
+  {
+    "word": "lunge",
+    "about": "Lunge is an enchantment applied to spears that causes jab attacks to propel the wielder forward horizontally.  When used, Lunge consumes saturation and hunger at an amount dependent on the enchantment level, as well as 1 durability.",
+    "wiki": "https://minecraft.wiki/w/Lunge"
+  },
+  {
+    "word": "mason",
+    "about": "A mason is a villager that trades polished stones, terracotta, clay, glazed terracotta and quartz.  Masons wear a black apron and black gloves.",
+    "wiki": "https://minecraft.wiki/w/Mason"
+  },
+  {
+    "word": "melon",
+    "about": "Melons are blocks in Minecraft that can be found naturally in jungles and savanna villages, or grown with melon seeds. When broken they drop melon slices that you can eat!",
+    "wiki": "https://minecraft.wiki/w/Melon"
+  },
+  {
+    "word": "mines",
+    "about": "Mining is a fundamental part of Minecraft. It is how you break blocks to get that block or a resource from it.",
+    "wiki": "https://minecraft.wiki/w/Breaking"
+  },
+  {
+    "word": "mossy",
+    "about": "Mossy blocks are a variation of cobblestone and stone bricks. You can craft them with vines or moss blocks and find them naturally in old growth spruce forests.",
+    "wiki": "https://minecraft.wiki/w/Mossy"
+  },
+  {
+    "word": "music",
+    "about": "Minecraft's music was originaly created by C418 and later (after its acquisition by Microsoft) Lena Raine. There are two kind of music in Minecraft: The ambient music and music discs. Ambient music play in the backround while music discs have to be aquired in game, then played in a jukebox.",
+    "wiki": "https://minecraft.wiki/w/Music"
+  },
+  {
+    "word": "night",
+    "about": "The night is a time of day in Minecraft that lasts 10 real life minutes and when hostile mobs can spawn because the light level drops. You can skip the night by sleeping.",
+    "wiki": "https://minecraft.wiki/w/Daylight_cycle#Night"
+  },
+  {
+    "word": "ocean",
+    "about": "The ocean is a large water filled biome and has nine variants. There's the ocean, which is the generic variant, the deep ocean,  the frozen ocean (has a deep variant), the cold ocean, lukewarm ocean (has a deep variant), and warm ocean. In most of these oceans squid, drowned, fish, and kelp are common.",
+    "wiki": "https://minecraft.wiki/w/Ocean"
+  },
+  {
+    "word": "panda",
+    "about": "Pandas are neutral mobs that spawn in jungle biomes and eat bamboo. Unlike other mobs, they have 7 sub-variations(brown, lazy, worried, playful, weak, aggressive and normal) with slightly different behaviors and textures from each other. The rarest of these is the brown panda. Breeding the same types of pandas gives you a higher chance of getting that kind of panda.",
+    "wiki": "https://minecraft.wiki/w/Panda"
+  },
+  {
+    "word": "paper",
+    "about": "Paper is an item crafted from sugar cane, required for crafting books, maps, firework rockets and banner patterns.",
+    "wiki": "https://minecraft.wiki/w/Paper"
+  },
+  {
+    "word": "pearl",
+    "about": "Ender Pearls are items dropped by Endermen. You can also get them from trading with clerics. By throwing one you can teleport to the spot where the pearl lands. They are also used ( in combination with blaze powder) to make Eyes of Ender which are required to activate a end portal.",
+    "wiki": "https://minecraft.wiki/w/Ender_Pearl"
+  },
+  {
+    "word": "peony",
+    "about": "A peony is a tall flower that can be crafted into pink dye.",
+    "wiki": "https://minecraft.wiki/w/Peony"
+  },
+  {
+    "word": "photo",
+    "about": "A photo is an item containing a picture taken with a camera.",
+    "wiki": "https://minecraft.wiki/w/Photo"
+  },
+  {
+    "word": "plain",
+    "about": "The plains biome is a common biome and one of the most generic. It is made up of grass and flowers that form a relatively flat terrain. Many peaceful mobs spawn here like horses, chicken, cows, and sheep.",
+    "wiki": "https://minecraft.wiki/w/Plains"
+  },
+  {
+    "word": "plank",
+    "about": "Wooden planks can be crafted from one log of the desired plank varent. Planks are often used in crafting and can be used as a building block. Each wood type has a plank (oak, spruce, birch, jungle, acacia, dark oak, warped, crimson, mangrove, cherry, and bamboo).",
+    "wiki": "https://minecraft.wiki/w/Planks"
+  },
+  {
+    "word": "plant",
+    "about": "A plant can either be a plant structure or a plant block.  A plant structure is composed entirely of plant blocks, which includes flowers, leaves, logs, propagules, roots, and crops.",
+    "wiki": "https://minecraft.wiki/w/Plant"
+  },
+  {
+    "word": "poppy",
+    "about": "A poppy is a red flower that can be crafted into red dye and suspicious stew.",
+    "wiki": "https://minecraft.wiki/w/Poppy"
+  },
+  {
+    "word": "power",
+    "about": "Power is an enchantment applied to bows that increases arrow damage.",
+    "wiki": "https://minecraft.wiki/w/Power"
+  },
+  {
+    "word": "punch",
+    "about": "Punch is an enchantment applied to bows that increases arrow knockback.",
+    "wiki": "https://minecraft.wiki/w/Punch"
+  },
+  {
+    "word": "quill",
+    "about": "The book and quill is an item in Minecraft that can be crafted with a book, ink sack, and feather. You can write in the book and sign it once you're done so no one can edit it.",
+    "wiki": "https://minecraft.wiki/w/Book_and_Quill"
+  },
+  {
+    "word": "river",
+    "about": "Rivers are a biome and land formation in Minecraft. Squid and fish spawn there along with drowned. You can find gravel, sand, clay, and dirt at the bottom of rivers, which are filled up with water.",
+    "wiki": "https://minecraft.wiki/w/River"
+  },
+  {
+    "word": "roots",
+    "about": "There are four kinds of roots in Minecraft. The warped and crimson roots are found in their respective nether forest. Hanging roots can be found generating under azalia trees or you can bone meal rooted dirt to make more. Mangrove roots are generated at the bottom of mangrove trees",
+    "wiki": "https://minecraft.wiki/w/Roots"
+  },
+  {
+    "word": "sculk",
+    "about": "Sculk is a family of blocks including sculk blocks, shrieker, sensors, catalysts, and more. All of the sculk family can be found in the deep dark biome. The Warden is also a part of the sculk family.",
+    "wiki": "https://minecraft.wiki/w/Sculk_family"
+  },
+  {
+    "word": "scute",
+    "about": "Scutes are items that baby turtles drop when they grow into adults. They can be used to craft turtle shells which can be used to brew the potion of the Turtle Master.",
+    "wiki": "https://minecraft.wiki/w/Chest"
+  },
+  {
+    "word": "shard",
+    "about": "In Minecraft there are four shards: Amethyst shards, echo shards, prismerine shards, and pottery shards. All shards are used in crafting. Amethyst shards are obtanded from mining amethystet cluseters, and can be used to craft amethyst blocks, spyglasses, tinted glass, and calibrated skulk sensors. Echo shards are found in ancient city chests and nine of them can craft a recovery compass. Prysmirine shards are dropped from guardians and are used to make all the different prysmerine blocks, and sea lanterns. Pottery shards can be obtanded by brushing suspishois snad or gravel found in various structures around the world. Each structure has its own types of shards, and there are twenty types ( As of April 2023) planed for the Tails and Trails update. They can be crafting into decorated pots.",
+    "wiki": "https://minecraft.wiki/w/Shard"
+  },
+  {
+    "word": "shear",
+    "about": "Shearing is an action you can do in Minecraft with shears. You can shear sheep for wool, or leaves.",
+    "wiki": "https://minecraft.wiki/w/Shears"
+  },
+  {
+    "word": "sheep",
+    "about": "Sheep are passive mobs in Minecraft. When killed they drop mutton and can be sheared to get wool. You can dye sheep to make the sheeps wool that color.",
+    "wiki": "https://minecraft.wiki/w/Sheep"
+  },
+  {
+    "word": "shelf",
+    "about": "A shelf is a block that can store and display up to three stacks of items.  A shelf can be used to swap its slots with the slots in the player's hotbar.",
+    "wiki": "https://minecraft.wiki/w/Shelf"
+  },
+  {
+    "word": "shell",
+    "about": "There are three kinds of shells in Minecraft. Turtle shell helmets give you ten seconds of water breathing, or can be brewed into turtle master potions. Shulker shells are dropped by shulkers and are used to craft shulker boxes. Nautilus shells are dropped by drowned and can be combined with a heart of the sea to craft a conduit.",
+    "wiki": "https://minecraft.wiki/w/Shell"
+  },
+  {
+    "word": "shrub",
+    "about": "The shrub was an unused variant of short grass that did not generate naturally.  In Bedrock Edition, it used the name fern and took the appearance of short grass.",
+    "wiki": "https://minecraft.wiki/w/Shrub"
+  },
+  {
+    "word": "slabs",
+    "about": "Slabs are half blocks that are mostly used for decoration, stopping mob spawns, and stepping stones on paths.",
+    "wiki": "https://minecraft.wiki/w/Slab"
+  },
+  {
+    "word": "slime",
+    "about": "Slimes are unique mobs in Minecraft. They spawn in swamps at night, or in slime chunks. They come in a small, medium, and large size each with different HP, when you kill one it splits into multiple of the smaller size (small slimes just drop slimeballs). Slimeballs can be used to make leads and magma cream, but are important in redstone being used to make both sticky pistons, and slime blocks.",
+    "wiki": "https://minecraft.wiki/w/Slime"
+  },
+  {
+    "word": "smite",
+    "about": "Smite is a sword or axe enchantment that deals more damage to undead mobs.",
+    "wiki": "https://minecraft.wiki/w/Smite"
+  },
+  {
+    "word": "spawn",
+    "about": "Spawn is a term that corresponds to summoning something into the world, or a respawn/world spawn (where you start the world) point.",
+    "wiki": "https://minecraft.wiki/w/Spawn"
+  },
+  {
+    "word": "spear",
+    "about": "A spear is a tiered melee weapon that can be used to perform slow jab attacks or held forward to do charge attacks which deal damage based on the velocity of the user and the target.  Spears have especially long reach, but cannot hit targets that are too close.",
+    "wiki": "https://minecraft.wiki/w/Spear"
+  },
+  {
+    "word": "squid",
+    "about": "Squid are a mob in Minecraft that spawn in rivers and drop an ink sack upon death. Ink sacs are used in the book and quills recipe as well as in making black dye. In very early betas they were milkable and there was a bug that let them fly.",
+    "wiki": "https://minecraft.wiki/w/Squid"
+  },
+  {
+    "word": "stair",
+    "about": "Stairs are a block in Minecraft that lets you go up a block without jumping. All wood types and some stone types have a variant and are crafted with six of that item to get four stairs back (or one for one with a stonecutter). Stairs are also a great building block.",
+    "wiki": "https://minecraft.wiki/w/Stairs"
+  },
+  {
+    "word": "steak",
+    "about": "Steak is one of the best foods in the game along with bread and golden carrots, restoring eight hunger points. It is obtained by cooking raw beef, which is obtained from killing cows.",
+    "wiki": "https://minecraft.wiki/w/Steak"
+  },
+  {
+    "word": "steve",
+    "about": "Steve is one of the nine default skins that players can use in Minecraft, and the first to be introduced.  The character originated from Zombie Town, an unreleased game developed by Notch in 2009 prior to Minecraft beginning development, and has frequently appeared in subsequent Minecraft media.",
+    "wiki": "https://minecraft.wiki/w/Steve"
+  },
+  {
+    "word": "stick",
+    "about": "Sticks are an important item in Minecraft. Two wood planks will make four sticks (you can also craft them less efficiently using bamboo), which don't do anything by themself's but are used in a lot of crafting recipes.",
+    "wiki": "https://minecraft.wiki/w/Stick"
+  },
+  {
+    "word": "stone",
+    "about": "Stone is a common block in Minecraft that can be mined efficiently with a pickaxe and drops cobblestone. Smelting cobblestone turns it into stone but most recipes that would use stone use cobblestone instead.",
+    "wiki": "https://minecraft.wiki/w/Stone"
+  },
+  {
+    "word": "stray",
+    "about": "A stray is a skeleton variant that spawns in various snow-covered biomes.  They behave very similarly to skeletons, except they fire tipped arrows of Slowness from their bows and do not freeze in powder snow.",
+    "wiki": "https://minecraft.wiki/w/Stray"
+  },
+  {
+    "word": "sugar",
+    "about": "Sugar is a food ingredient and brewing ingredient made from sugar cane or honey bottles.",
+    "wiki": "https://minecraft.wiki/w/Sugar"
+  },
+  {
+    "word": "sunny",
+    "about": "Sunny is one of the nine default skins players can use in Minecraft, and the fourth to be introduced.  They first appeared in promotional material for The Wild Update, alongside Noor and Efe, and has since become a major recurring character in the franchise.",
+    "wiki": "https://minecraft.wiki/w/Sunny"
+  },
+  {
+    "word": "swamp",
+    "about": "A swamp or swampland is a wetland biome where slimes, frogs, and bogged can spawn, and it is the only biome where swamp huts can generate.  It is vegetated by unique swamp oaks covered in vines, firefly bushes, lily pads, and more.",
+    "wiki": "https://minecraft.wiki/w/Swamp"
+  },
+  {
+    "word": "sword",
+    "about": "The sword is a combat weapon in Minecraft. It comes in 6 types: wood, stone, iron, gold, diamond, and netherite.",
+    "wiki": "https://minecraft.wiki/w/Sword"
+  },
+  {
+    "word": "table",
+    "about": "There are five different kinds of tables in Minecraft, each with unique functionality. There is the crafting table used for crafting things, enchanting tables which are used for enchanting, the fletching table which currently has no use :(, the cartography table used for expanding and managing maps, and the smithing table which is used for upgrading armor and tools to netherite, and equipping armor trims.",
+    "wiki": "https://minecraft.wiki/w/Table"
+  },
+  {
+    "word": "taiga",
+    "about": "The taiga is a humid and cold biome comprising a grassland forested with small and large ferns, pale aquamarine-green grass, spruce and pine trees.  Foxes and wolves commonly spawn here.",
+    "wiki": "https://minecraft.wiki/w/Taiga"
+  },
+  {
+    "word": "tools",
+    "about": "There are many tools in Minecraft and tools is a very broad term so I'll classify tools as: axes, pickaxes, shovels, hoes but there are many other tools such as compasses that you can find on the Minecraft wiki page. All of these tools are more effective at mining a certain type of block (and often other assorted blocks) and come in six types: wood, stone, iron, gold, diamond, and netherite. Axes are more efficient at mining wood, shovels dirt/gravel/sand, pickaxes stones, and hoes make farm land.",
+    "wiki": "https://minecraft.wiki/w/Tool"
+  },
+  {
+    "word": "torch",
+    "about": "Torches are one of the most generic but effective forms of light emission in Minecraft. You get four from one stick and one coal (or charcoal) which each emit a light level of 14. There is also a soul variant crafted with an additional soul sand or soil that emits a light level of 10.",
+    "wiki": "https://minecraft.wiki/w/Torch"
+  },
+  {
+    "word": "trade",
+    "about": "Trading is a system that can be used with villagers and wandering traders. While trading you exchange an item (a book is required for some trades), for another item. Emeralds are used as currency.",
+    "wiki": "https://minecraft.wiki/w/Trading"
+  },
+  {
+    "word": "trims",
+    "about": "Armor trims are a set of items that you can find in structures and combine with a mineral in a smithing table to decorate your armor.",
+    "wiki": "https://minecraft.wiki/w/Smithing_Template"
+  },
+  {
+    "word": "tulip",
+    "about": "Tulips are a kind of flower found in plains and flower forests that come in multiple colored variants: red, orange, white, and pink.  They yield dyes of their respective colors, with the exception of white tulips, which yield light gray dye, and all of them are used to craft suspicious stew.",
+    "wiki": "https://minecraft.wiki/w/Tulip"
+  },
+  {
+    "word": "tunic",
+    "about": "A tunic is the term used for a leather chestplate. Leather tunics provide three armor points. Chestplate are one of four armor pieces in a set.",
+    "wiki": "https://minecraft.wiki/w/Chestplate"
+  },
+  {
+    "word": "vault",
+    "about": "A vault is a block found in trial chambers that ejects loot when unlocked using a trial key.  Each vault can be opened by an unlimited number of players, but each player can unlock a specific vault only once.",
+    "wiki": "https://minecraft.wiki/w/Vault"
+  },
+  {
+    "word": "vines",
+    "about": "Vines are climbable non-solid vegetation blocks that grow on walls.",
+    "wiki": "https://minecraft.wiki/w/Vines"
+  },
+  {
+    "word": "walls",
+    "about": "There are 22 (25 after 1.21) different walls in Minecraft, mostly variations of stones or stone like blocks. They behave similar to fences where they arenU+2019t jumpable with a normal jump.",
+    "wiki": "https://minecraft.wiki/w/Wall"
+  },
+  {
+    "word": "water",
+    "about": "Water is a liquid in Minecraft. It forms naturally in oceans, rivers, and swamps. You can swim in water and build like you can on land but mining blocks take longer. It can be picked up with a bucket.",
+    "wiki": "https://minecraft.wiki/w/Water"
+  },
+  {
+    "word": "wheat",
+    "about": "Wheat is an item primarily obtained by harvesting fully-grown wheat crops. It is used for crafting as well as to feed certain animals.",
+    "wiki": "https://minecraft.wiki/w/Wheat"
+  },
+  {
+    "word": "witch",
+    "about": "Witches are hostile mobs that use potions in combat, using various splash potions for offense and drinkable potions for defense.",
+    "wiki": "https://minecraft.wiki/w/Witch"
+  },
+  {
+    "word": "world",
+    "about": "A world or level is an individual Minecraft \"universe\" which encompasses all blocks and entities in each dimension.  Worlds can be accessed and edited through the world selection menu from the main menu and can be created with the \"Create New World\" button.",
+    "wiki": "https://minecraft.wiki/w/World"
+  }
+]
